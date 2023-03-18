@@ -1,5 +1,5 @@
 jobs:
-  build:
+  build: &build_job
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

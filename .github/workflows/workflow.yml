@@ -2,5 +2,6 @@ name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  <<: *build_job
+  build:
+    <<: *build_job
 

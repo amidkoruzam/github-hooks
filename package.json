@@ -1,0 +1,23 @@
+{
+  "name": "github-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amidkoruzam/github-hooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amidkoruzam/github-hooks/issues"
+  },
+  "homepage": "https://github.com/amidkoruzam/github-hooks#readme",
+  "dependencies": {
+    "typescript": "^5.0.2"
+  }
+}

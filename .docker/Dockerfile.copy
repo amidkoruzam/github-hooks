@@ -1,0 +1,7 @@
+FROM deps
+
+WORKDIR /app
+COPY . .
+
+RUN ls -la /app
+RUN ls -la /app/node_modules
